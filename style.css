@@ -1,0 +1,256 @@
+/* Font imports */
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
+
+/* Generic styles */
+:root {
+  font-family: "Epilogue", sans-serif;
+  background: linear-gradient(var(--cream-white) 75%, var(--cream) 25%);
+  --primary-color: #172339;
+  --cream: #f3ede7;
+  --cream-white: #faf8f6;
+  --gray: #49566d;
+  --gradient: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+  --radius: 6px;
+}
+
+body,
+html,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1,
+h2,
+h4 {
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+h6,
+p {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 78px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: var(--gray);
+}
+
+p.quote {
+font-size: 20px;
+line-height: 35px;
+letter-spacing: 0.111111px;
+}
+
+button {
+  font-family: "Epilogue", sans-serif;
+  outline: none;
+  border: none;
+  color: var(--cream-white);
+  background: var(--primary-color);
+  padding: 16px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
+}
+
+button.outlined {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  background: transparent;
+}
+
+button.hover-gradient:hover {
+  background: var(--gradient);
+}
+
+button.outlined:hover {
+  background: var(--primary-color);
+  color: var(--cream-white);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
+}
+
+header,footer {
+  padding: 40px 0;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+/* Classes - Constants */
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 100px;
+}
+
+.hero-banner {
+  width: 76%;
+}
+
+.hero-text {
+  background: url(./assets/image-hero-portrait@2x.webp) no-repeat right;
+  background-size: contain;
+  padding-bottom: 100px;
+}
+
+.hero-text p {
+  max-width: 350px;
+}
+
+.hero-text h1 {
+  padding-top: 20px;
+}
+
+.hero-text img {
+  transform: translate(100%, 40px);
+}
+
+.hero-img {
+  display: none;
+}
+
+.stats {
+  width: 15%;
+}
+
+.testimonial {
+  overflow: show;
+  position: relative;
+}
+
+.testimonial .rectangle {
+  height: calc(100% - 56px);
+  position: absolute;
+  bottom: 4px;
+  border-radius: 16px;
+  z-index: -1;
+
+}
+
+.testimonial-image {
+  width: 360px;
+}
+
+.swoosh img{
+  transform: translateY(-60px);
+  width: 90%
+}
+
+.testimonial-text {
+  width: 360px;
+}
+
+.socials{
+  justify-content: flex-end;
+  align-items: flex-end;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.socials img:hover{
+  opacity: .5;
+  transition: .3s;
+}
+
+/* Classes - Reuseable */
+.bg-gradient {
+  background: var(--gradient);
+}
+
+.bg-primary {
+  background: var(--primary-color);
+}
+
+.text-normal {
+  font-weight: 400;
+}
+
+.text-cream-white {
+  color: var(--cream-white);
+}
+
+.rounded {
+  border-radius: var(--radius);
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-flow: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mt-large {
+  margin-top: 154px;
+}
+
+.py-10{
+  padding: 0 20px;
+}

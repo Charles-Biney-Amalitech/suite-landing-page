@@ -7,11 +7,88 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
 
     <title>Frontend Mentor | Suite landing page</title>
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    Request Beta Access A super solution for your business. Our marketing and sales automations help you scale your
-    outreach to get more leads for your company. Request Beta Access 2K+ Companies 8 Languages 1.2M Leads It just works.
-    “I really like how it is an all-in-one solution that handle many of the tasks that you would normally need separate
-    tools to do the same job. This thing is a miracle worker.” Jeremy Robinson CMO, Fylo Copyright - Suite
+    <div class="wrapper">
+      <header class="flex-row items-center space-between">
+        <div class="logo">
+          <a href="./index.html"><img src="./assets/logo.svg" alt="Suite logo" /></a>
+        </div>
+        <a href="#"><button class="outlined rounded">Request Beta Access</button></a>
+      </header>
+      <main class="mt-40">
+        <section class="hero flex-row space-between items-center">
+          <div class="flex-column hero-banner">
+            <div class="hero-text">
+              <img class="mt-40" src="./assets/pattern-curved-line-1.svg" alt="" />
+              <h1 class="mt-40">
+                <span class="text-normal">A</span> super solution
+                <br />
+                <span class="text-normal">for your</span> business.
+              </h1>
+              <p class="mt-40">
+                Our marketing and sales automations help you scale your outreach to get more leads for your company.
+              </p>
+              <a href="#"><button class="hover-gradient mt-40 rounded">Request Beta Access</button></a>
+            </div>
+            <div class="hero-img">
+              <img src="./assets/image-hero-portrait.webp" alt="Suite hero portriat" />
+            </div>
+          </div>
+
+          <div class="flex-column stats">
+            <div>
+              <h2>2K+</h2>
+              <h6>companies</h6>
+            </div>
+            <div class="mt-60">
+              <h2>8</h2>
+              <h6>languages</h6>
+            </div>
+            <div class="mt-60">
+              <h2>1.2M</h2>
+              <h6>leads</h6>
+            </div>
+          </div>
+        </section>
+
+        <section class="testimonial mt-large">
+          <div class="bg-primary w-full rectangle"></div>
+          <div class="container flex-row items-center space-evenly">
+            <div class="testimonial-image">
+              <img src="./assets/image-jeremy-large@2x.webp" alt="Jeremy" width="100%" />
+            </div>
+            <div class="swoosh"><img src="./assets/pattern-curved-line-2.svg" alt="" /></div>
+            <div class="testimonial-text">
+              <h2 class="text-cream-white mt-40"><span class="text-normal">It just</span> works.</h2>
+              <p class="text-cream-white mt-40 quote">
+                “I really like how it is an all-in-one solution that handle many of the tasks that you would normally
+                need separate tools to do the same job. This thing is a miracle worker.”
+              </p>
+              <h4 class="text-cream-white mt-40">Jeremy Robinson</h4>
+              <h6 class="text-cream-white">CMO, Fylo</h6>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="flex-row space-between">
+        <div class="logo">
+          <a href="./index.html"><img src="./assets/logo.svg" alt="Suite logo" /></a>
+        </div>
+
+        <div class="copyright">
+          <p>Copyright - Suite</p>
+        </div>
+
+        <div class="flex-row socials">
+          <a href="#"><img src="./assets/icon-facebook.svg" alt="facebook" /></a>
+          <a href="#"><img class="py-10" src="./assets/icon-twitter.svg" alt="Twitter" /></a>
+          <a href="#"><img src="./assets/icon-instagram.svg" alt="Instagram" /></a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
