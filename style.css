@@ -164,7 +164,19 @@ footer p {
   bottom: 4px;
   border-radius: 16px;
   z-index: -1;
+}
 
+.oval{
+  background: #DB65E2;
+  position:absolute;
+  bottom: 40px;
+  left: 160px;
+  filter: blur(35px);
+  opacity: .4;
+  width: 294px;
+  height: 294px;
+  border-radius: 50%;
+  z-index: -1;
 }
 
 .testimonial-image {
