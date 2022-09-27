@@ -137,12 +137,8 @@ footer p {
   max-width: 350px;
 }
 
-.hero-text h1 {
-  padding-top: 20px;
-}
-
 .hero-text img {
-  transform: translate(100%, 40px);
+  transform: translate(100%, 30px);
 }
 
 .hero-img {
@@ -170,7 +166,7 @@ footer p {
   background: #DB65E2;
   position:absolute;
   bottom: 40px;
-  left: 160px;
+  left: 40px;
   filter: blur(35px);
   opacity: .4;
   width: 294px;
@@ -180,6 +176,10 @@ footer p {
 }
 
 .testimonial-image {
+  position: relative;
+}
+
+.testimonial-image img {
   width: 360px;
 }
 

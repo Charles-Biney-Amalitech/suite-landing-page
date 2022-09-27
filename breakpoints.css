@@ -1,0 +1,105 @@
+@media only screen and (max-width: 768px) {
+    :root {
+      background: linear-gradient(var(--cream-white) 70%, var(--cream) 30%);
+    }
+
+  h1 {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -0.78px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.42px;
+  }
+
+  h6 {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.09px;
+  }
+
+  p.quote {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.09px;
+  }
+
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-banner {
+    width: 100%;
+  }
+
+  .hero-text {
+    background: url(./assets/image-hero-portrait.webp) no-repeat right;
+    background-size: contain;
+    padding-bottom: 50px;
+  }
+
+  .hero-text img {
+    transform: translate(97%, 30px);
+    width: 33%;
+  }
+
+  .stats {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+
+  .stats > div {
+    margin-top: 0;
+  }
+
+  .testimonial .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+  }
+
+  .testimonial .rectangle {
+    height: calc(100% - 180px);
+    bottom: 0;
+  }
+
+  .oval {
+    bottom: 40px;
+    left: 0;
+    width: 240px;
+    height: 240px;
+    filter: blur(45px);
+  }
+
+  .testimonial-image img {
+    width: 252px;
+  }
+
+  .swoosh img {
+    margin-top: 40px;
+    transform: translateY(0);
+    width: 90%;
+  }
+
+  .testimonial-text {
+    width: 82%;
+    margin-bottom: 60px;
+  }
+}
