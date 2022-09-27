@@ -1,7 +1,7 @@
 @media only screen and (max-width: 768px) {
-    :root {
-      background: linear-gradient(var(--cream-white) 70%, var(--cream) 30%);
-    }
+  :root {
+    background: linear-gradient(var(--cream-white) 70%, var(--cream) 30%);
+  }
 
   h1 {
     font-size: 56px;
@@ -34,6 +34,10 @@
     letter-spacing: 0.09px;
   }
 
+  button {
+    font-size: 16px;
+  }
+
   .wrapper {
     width: 90%;
     margin: 0 auto;
@@ -63,6 +67,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 80px;
+    text-align: center;
   }
 
   .stats > div {
@@ -101,5 +106,75 @@
   .testimonial-text {
     width: 82%;
     margin-bottom: 60px;
+  }
+
+  .mt-large {
+    margin-top: 110px;
+  }
+}
+
+@media only screen and (max-width: 377px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  header,
+  .hero {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -0.53px;
+  }
+
+  main {
+    margin-top: 0 !important;
+  }
+
+  .hero-text {
+    background: none;
+    padding-bottom: 40px;
+  }
+
+  .hero-text img {
+    transform: translate(105%, 30px);
+    width: 44%;
+    margin-top: 0;
+  }
+
+  .hero-img {
+    display: block;
+  }
+
+  .hero-img img {
+    width: 100%;
+  }
+
+  .stats {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .stats > div {
+    margin: 20px 0;
+  }
+
+  footer {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+  }
+
+  .copyright {
+    margin: 30px 0;
+  }
+
+  .mt-large {
+    margin-top: 60px;
   }
 }

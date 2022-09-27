@@ -13,6 +13,10 @@
   --radius: 6px;
 }
 
+*{
+  box-sizing:border-box;
+}
+
 body,
 html,
 p,
@@ -150,7 +154,6 @@ footer p {
 }
 
 .testimonial {
-  overflow: show;
   position: relative;
 }
 
