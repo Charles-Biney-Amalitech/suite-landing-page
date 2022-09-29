@@ -8,22 +8,26 @@
 
     <title>Frontend Mentor | Suite landing page</title>
 
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./breakpoints.css" />
   </head>
   <body>
     <div class="wrapper">
+      <!-- ====Header bar==== -->
       <header class="flex-row items-center space-between">
         <div class="logo">
           <a href="./index.html"><img src="./assets/logo.svg" alt="Suite logo" /></a>
         </div>
         <a href="#"><button class="outlined rounded">Request Beta Access</button></a>
       </header>
+      <!-- ====Header bar end==== -->
 
       <main class="mt-40">
+        <!-- ====Hero section==== -->
         <section class="hero flex-row space-between items-center">
           <div class="flex-column hero-banner">
-            <div class="hero-text">
+            <div class="hero-text animated slideFromLeft">
               <img class="mt-40" src="./assets/pattern-curved-line-1.svg" alt="" />
               <h1 class="mt-40">
                 <span class="text-normal">A</span> super solution
@@ -35,12 +39,12 @@
               </p>
               <a href="#"><button class="hover-gradient mt-40 rounded">Request Beta Access</button></a>
             </div>
-            <div class="hero-img">
+            <div class="hero-img animated slideFromRight">
               <img src="./assets/image-hero-landscape.webp" alt="Suite hero portriat" />
             </div>
           </div>
 
-          <div class="flex-column stats">
+          <div class="flex-column stats animated slideFromRight">
             <div>
               <h2>2K+</h2>
               <h6>companies</h6>
@@ -55,8 +59,10 @@
             </div>
           </div>
         </section>
+        <!-- ====Hero section end==== -->
 
-        <section class="testimonial mt-large">
+        <!-- ====Testimonial section==== -->
+        <section class="testimonial mt-large slideFromBottom delayed">
           <div class="bg-primary w-full rectangle"></div>
           <div class="container flex-row items-center space-evenly">
             <div class="testimonial-image">
@@ -75,8 +81,10 @@
             </div>
           </div>
         </section>
+        <!-- ====Testimonial section end==== -->
       </main>
 
+      <!-- ====Footer section==== -->
       <footer class="flex-row space-between">
         <div class="logo">
           <a href="./index.html"><img src="./assets/logo.svg" alt="Suite logo" /></a>
@@ -92,6 +100,10 @@
           <a href="#"><img src="./assets/icon-instagram.svg" alt="Instagram" /></a>
         </div>
       </footer>
+      <!-- ====Footer section ends==== -->
     </div>
+
+    <!-- Scripts -->
+    <script src="./index.js" defer></script>
   </body>
 </html>

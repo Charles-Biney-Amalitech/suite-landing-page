@@ -1,5 +1,6 @@
 /* Font imports */
 @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
+@import url('./animations.css');
 
 /* Generic styles */
 :root {
@@ -269,4 +270,17 @@ footer p {
 
 .py-10{
   padding: 0 20px;
+}
+
+/* Animation classes */
+.animated.slideFromLeft {
+  animation: slideFromLeft .6s ease;
+}
+
+.animated.slideFromRight {
+  animation: slideFromRight .6s ease;
+}
+
+.animated.slideFromBottom {
+  animation: slideFromBottom .6s ease;
 }
