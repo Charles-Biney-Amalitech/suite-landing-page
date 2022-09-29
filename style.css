@@ -142,7 +142,8 @@ footer p {
 }
 
 .hero-text img {
-  transform: translate(100%, 30px);
+  transform: translate(290px, 30px);
+  width: 290px;
 }
 
 .hero-img {

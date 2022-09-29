@@ -1,3 +1,10 @@
+@media only screen and (max-width: 1111px) {
+  .wrapper {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   :root {
     background: linear-gradient(var(--cream-white) 70%, var(--cream) 30%);
@@ -58,8 +65,8 @@
   }
 
   .hero-text img {
-    transform: translate(97%, 30px);
-    width: 33%;
+    transform: translate(225px, 30px);
+    width: 225px;
   }
 
   .stats {
@@ -113,7 +120,56 @@
   }
 }
 
-@media only screen and (max-width: 377px) {
+@media only screen and (max-width: 505px) {
+  header {
+    padding: 20px 0;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 44px;
+    letter-spacing: -0.53px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  .hero-text {
+    background: none;
+    padding-bottom: 40px;
+  }
+
+  .hero-text img {
+    transform: translate(195px, 30px);
+    width: 195px;
+    margin-top: 0;
+  }
+
+  .hero-img {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 432px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 12px 14px;
+  }
+
+  .hero-text img {
+    transform: translate(170px, 30px);
+    width: 170px;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 378px) {
   .wrapper {
     width: 100%;
   }
@@ -124,7 +180,7 @@
   }
 
   h1 {
-    font-size: 38px;
+    font-size: 2.4rem;
     line-height: 44px;
     letter-spacing: -0.53px;
   }
@@ -133,19 +189,10 @@
     margin-top: 0 !important;
   }
 
-  .hero-text {
-    background: none;
-    padding-bottom: 40px;
-  }
-
   .hero-text img {
-    transform: translate(105%, 30px);
-    width: 44%;
+    transform: translate(155px, 30px);
+    width: 155px;
     margin-top: 0;
-  }
-
-  .hero-img {
-    display: block;
   }
 
   .hero-img img {
@@ -176,5 +223,56 @@
 
   .mt-large {
     margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 329px) {
+  .hero-text img {
+    transform: translate(130px, 30px);
+    width: 130px;
+    margin-top: 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 276px) {
+  .hero-text img {
+    transform: translate(103px, 30px);
+    width: 100px;
+    margin-top: 0;
+  }
+
+  .testimonial-image img {
+    max-width: 180px;
+  }
+
+  .oval {
+    aspect-ratio: 1/1;
+    max-width: 100px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    line-height: 32px;
+  }
+
+  button {
+    font-size: 10px;
+    padding: 6px 10px;
+  }
+}
+
+@media only screen and (max-width: 223px) {
+  .hero-text img {
+    transform: translate(88px, 30px);
+    width: 90px;
+    margin-top: 0;
+  }
+
+  h1 {
+    font-size: 1.4rem;
   }
 }
