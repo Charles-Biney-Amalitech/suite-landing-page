@@ -5,6 +5,33 @@
   }
 }
 
+@media only screen and (min-width: 769px) and (max-width: 961px) { /*Patch for testimonial text overlaping*/
+  .testimonial h2 {
+    font-size: 32px;
+  }
+  
+  .testimonial h4 {
+    font-size: 16px;
+  }
+  
+  .testimonial h6 {
+    font-size: 14px;
+  }
+  
+  .testimonial .mt-40 {
+    margin-top: 20px;
+  }
+
+  .testimonial-image img {
+    width: 260px;
+  }
+
+  .quote {
+    font-size: 16px !important;
+    line-height: 22px !important;
+  }
+}
+
 @media only screen and (max-width: 802px) {
   h1 {
     font-size: 68px;
