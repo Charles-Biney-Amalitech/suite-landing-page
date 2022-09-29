@@ -5,6 +5,17 @@
   }
 }
 
+@media only screen and (max-width: 802px) {
+  h1 {
+    font-size: 68px;
+  }
+
+  .hero-text img {
+    transform: translate(275px, 30px);
+    width: 275px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   :root {
     background: linear-gradient(var(--cream-white) 70%, var(--cream) 30%);
